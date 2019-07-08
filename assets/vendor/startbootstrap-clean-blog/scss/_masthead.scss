@@ -1,3 +1,5 @@
+$dark-shades: #24400c;
+
 // Styling for the masthead
 header.masthead {
   // TIP: Background images are set within the HTML using inline CSS!
@@ -20,7 +22,7 @@ header.masthead {
   .post-heading,
   .site-heading {
     padding: 200px 0 150px;
-    color: white;
+    color: $dark-shades;
     @media only screen and (min-width: 768px) {
       padding: 200px 0;
     }
@@ -67,7 +69,7 @@ header.masthead {
       font-style: italic;
       @include serif-font;
       a {
-        color: $white;
+        color: $dark-shades;
       }
     }
     @media only screen and (min-width: 768px) {

@@ -3,3 +3,39 @@
 ---
 
 @import "styles";
+@import url('https://fonts.googleapis.com/css?family=Questrial');
+
+$light-shades: #ECEAE3;
+$light-accent: #85A394;
+$dark-accent: #9C712E;
+$dark-shades: #1C2826;
+
+$brand-color: #5FC10C;
+$brand-color-hover: #6fc724;
+$brand-color-dark: #55ad0a;
+$brand-color-light: #8fd354;
+$brand-color-white: #EFF8E6;
+
+$twitter-color: #00acee;
+
+$fav-color: #c73b31;
+$fav-color-light: #aa544e;
+
+body {
+  font-family: "Questrial", sans-serif;
+  background-color: $light-shades;
+  color: $dark-shades;
+}
+
+.navbar{
+  background-color: $brand-color;
+  height: 48px;
+}
+
+h1, h2, h3, h4, h5, h6, #mainNav{
+  font-family: inherit !important;
+}
+
+h2.subheading{
+  font-family: inherit;
+}
