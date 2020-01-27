@@ -2,7 +2,7 @@
 layout: post
 title: "ヌイートの投稿画面が新しくなりました！"
 subtitle: "カテゴリーやその他の設定を簡単に設定できます。"
-date: 2019-07-18 00:28:00 +0900
+date: 2020-01-27 19:04:00 +0900
 background: '/img/posts/renew-btn-nuita.png'
 ---
 
